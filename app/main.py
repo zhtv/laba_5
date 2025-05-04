@@ -27,6 +27,7 @@ load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
 SECRET_KEY = os.getenv("SECRET_KEY")
 API_KEY = os.getenv("API_KEY")
+
 print(f"Database URL: {DATABASE_URL}")
 print(f"Secret Key: {SECRET_KEY}")
 

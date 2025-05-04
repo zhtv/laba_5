@@ -39,3 +39,4 @@ jobs:
             DATABASE_URL=${{ secrets.DATABASE_URL }}
             SECRET_KEY=${{ secrets.SECRET_KEY }}
             API_KEY=${{ secrets.API_KEY }}
+            
